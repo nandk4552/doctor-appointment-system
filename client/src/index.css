@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #666;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    bottom: 100%;
+    left: 40%;
+    width: 20%;
+    height: 5px;
+    background-color: rgb(126, 20, 108);
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin-top: 2rem;
+    background-color: rgb(126, 20, 108);
+    box-shadow: 0 0 2px gray;
+}
+
+.ant-picker-dropdown {
+    position: absolute !important;
+    top: 60% !important;
+    left: 30% !important;
+}
+
+.btn-purple {
+    background-color: rgb(126, 20, 108);
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    padding: .2rem 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    box-shadow: 0 0 2px gray;
+}
+
+.btn-purple:hover {
+    background-color: rgb(126, 20, 108);
+    color: #fff;
+    border: none;
+    border-radius: .3rem;
+    padding: .2rem 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0 0 2px gray;
+    transform: scale(1.1);
+}
+
+.pointer {
+    cursor: pointer;
+}
